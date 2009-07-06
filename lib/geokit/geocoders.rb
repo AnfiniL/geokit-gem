@@ -373,7 +373,7 @@ module Geokit
           res.success=true
           return res
         else
-          logger.info "Yahoo was unable to geocode address: "+address
+          logger.info "Yandex was unable to geocode address: "+address
           return GeoLoc.new
         end
 
